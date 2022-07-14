@@ -1,0 +1,21 @@
+{
+  "name": "react-context-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node esbuild_config/scripts/esbuild-serve.js",
+    "build": "node esbuild_config/scripts/esbuild-build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "create-serve": "^1.0.1",
+    "esbuild": "^0.14.49"
+  }
+}
